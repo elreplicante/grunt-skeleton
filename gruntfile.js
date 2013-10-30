@@ -18,7 +18,7 @@ module.exports = function(grunt) {
 			},
 
 			bower: {
-				src: ['bower_components/monocle/monocle.js', 'bower_components/quo.js'],
+				src: ['bower components'],
 				dest: 'dist/bower_components/bower_components.js'
 			}
 			
@@ -37,8 +37,8 @@ module.exports = function(grunt) {
 		git_deploy: {
 			your_target: {
 				options: {
-					url: 'https://github.com/elreplicante/grunt-skeleton.git',
-					message: '<%= pkg.author %> commits like a ninja',
+					url: 'git repository ',
+					message: 'commit message',
 					branch: 'master'
 				},
 				src: '.'
@@ -48,7 +48,7 @@ module.exports = function(grunt) {
 		watch: {
 			source: {
 				files: ['src/*.js', 'spec/*.js'],
-				tasks: ['concat', 'jasmine', 'git_deploy'],
+				tasks: ['tasks to perform on watch'],
 			},
 		}
 
