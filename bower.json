@@ -1,0 +1,12 @@
+{
+  "name": "grunt-hack",
+  "version": "0.0.1",
+  "main": "src",
+  "ignore": [
+    ".DS_Store"
+  ],
+ "dependencies" : {},
+  "devDependencies": {
+    "monocle": "*"
+  }
+}
